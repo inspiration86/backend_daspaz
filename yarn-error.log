@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Qt\Qt5.11.2\Tools\mingw530_32\bin;C:\Qt\Qt5.11.2\5.11.2\mingw53_32\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\redis;C:\Users\MEHRGOSTAR\AppData\Local\Microsoft\WindowsApps;C:\Users\MEHRGOSTAR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\MEHRGOSTAR\AppData\Local\Yarn\bin;C:\Users\MEHRGOSTAR\AppData\Roaming\npm
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  {
+    "name": "nodejs-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^2.0.0",
+      "body-parser": "^1.18.2",
+      "electron-window-state": "^4.1.1",
+      "express": "^4.16.2",
+      "express-rate-limit": "^5.0.0",
+      "express-validator": "^4.3.0",
+      "jsonwebtoken": "^8.1.0",
+      "mkdirp": "^0.5.1",
+      "mongoose": "^4.13.6",
+      "mongoose-paginate": "^5.0.3",
+      "mongoose-timestamp": "^0.6.0",
+      "multer": "^1.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
